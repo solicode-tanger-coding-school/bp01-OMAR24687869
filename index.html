@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- this part for header -->
+    <header>
+        <a href="#" class="logo"> <samp>T</samp>anger</a>
+        <nav class="navigation">
+            <a href="">Menu</a>
+            <a href="">cantry</a>
+            <a href="">tabel</a>
+            <a href="">about</a>
+        </nav>
+    </header>
+    <!-- this part for main -->
+     <section class="main">
+        <div>
+            <h1>Welcome To <samp>Tanger</samp></h1>
+            <h2> Lorem ipsum dolor sit amet, consectetur </h2>
+            <a href="#" class="main-btn">View</a>
+        </div>
+     </section >
+     <!-- this part for cards -->
+      <section>
+      <div class="cont">
+        <div class="card">
+            <img src="imges/magghara.jpg" >
+            <div class="content">
+                <h3>Maghara</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis, quas.</p>
+                <button onclick="addNewLike()" >CliKe me</button>
+                <p><samp id="add">0</samp>:like</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="imges/dar barod.jpg" >
+            <div class="content">
+                <h3>Dar barod</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis, quas.</p>
+                <button onclick="addNewLike()" >CliKe me</button>
+                <p><samp id="add1">0</samp>:like</p>
+      </div>
+        </div>
+        <div class="card">
+            <img src="imges/mhata.jpg" >
+            <div class="content">
+                <h3>Mahata</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis, quas.</p>
+                <button onclick="addNewLike()" >CliKe me</button>
+                <p><samp id="add2">0</samp>:like</p>
+      </div>
+        </div>
+      
+    </div>
+      </section>
+      <section>
+        <div class="table1">
+            <h2>Data about Tangier</h2>
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Value</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Population</td>
+                        <td>1,200,000</td>
+                        <td>Population of Tangier</td>
+                    </tr>
+                    <tr>
+                        <td>Area</td>
+                        <td>100 km²</td>
+                        <td>Area of the city</td>
+                    </tr>
+                    <tr>
+                        <td>Climate</td>
+                        <td>Mediterranean</td>
+                        <td>Type of climate in Tangier</td>
+                    </tr>
+                    <tr>
+                        <td>Location</td>
+                        <td>North Morocco</td>
+                        <td>Geographic location of the city</td>
+                    </tr>
+                    <tr>
+                        <td>Tourist Attractions</td>
+                        <td>Kasbah of Tangier</td>
+                        <td>One of the famous tourist attractions</td>
+                    </tr>
+                    <tr>
+                        <td>Languages</td>
+                        <td>Arabic, French</td>
+                        <td>Languages spoken in the city</td>
+                    </tr>
+                    <tr>
+                        <td>Economy</td>
+                        <td>Trade, Tourism</td>
+                        <td>Main economic sectors</td>
+                    </tr>
+                    <tr>
+                        <td>History</td>
+                        <td>Founded in the 5th century BC</td>
+                        <td>History of the city</td>
+                    </tr>
+                    <tr>
+                        <td>Weather</td>
+                        <td>Mild</td>
+                        <td>General description of the weather</td>
+                    </tr>
+                    <tr>
+                        <td>Transport</td>
+                        <td>Port of Tangier Med</td>
+                        <td>Main transport facilities</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+      </section>
+    <!--  this part for imge -->
+      <section class="aboutAS">
+        <h2>
+            more informition
+         </h2>
+        <div class="more">
+            <img src="imges/souk d bara.jpg" width="60%" height="600px">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo hic ipsa aut, ea ipsum similique consequuntur, dolorum pariatur ad id sequi molestiae porro. Nihil dignissimos at cupiditate quod incidunt veniam asperiores autem explicabo. Debitis ducimus provident voluptatum. Praesentium porro nobis accusamus tempore perferendis molestias maxime, iusto, temporibus hic explicabo a animi eum, modi eius harum! Qui molestiae placeat, soluta voluptate asperiores maxime deleniti ducimus. Perspiciatis aliquid quae voluptas, a consequatur quidem vero illo sint. Quaerat eligendi sed aut, officiis neque magni unde aliquam velit doloribus cupiditate optio nostrum explicabo ipsam ut ducimus assumenda error a veritatis quo. Saepe cupiditate asperiores molestiae ab libero neque est nulla? Recusandae nulla tenetur distinctio magni, accusantium dolorum architecto voluptas ducimus deserunt neque culpa fugiat aspernatur ipsam placeat odio saepe. Illo fugit dignissimos in eveniet commodi, minima, 
+            quod nihil ipsum rerum, praesentium quo debitis optio?
+        </p>
+    </div>
+      </section>
+ <footer>
+        <p>Tanger</p>
+    
+ </footer>
+ <script>
+    let count = 0;
+ let counter = document.getElementById("add");
+ 
+ function addNewLike() {
+
+   count++;
+   counter.innerHTML = count;  
+ }
+ 
+ addNewLike();
+ 
+     
+     
+ 
+     </script>
+
+</body>
+</html>
