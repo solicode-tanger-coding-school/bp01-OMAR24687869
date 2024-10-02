@@ -128,6 +128,32 @@ section{
     color: black;
     line-height: 1.3;
 }
+.commentButton{
+    padding: 7px;
+    color: #bbac0b;
+    background-color: #0c0c0c;
+    border: 1px solid #bbac0b;
+    border-radius:50px;
+    
+}
+.likeButton{
+    background-color: #bbac0b;
+    color: white;
+    padding: 5px;
+    border: 1px solid #0c0c0c;
+    border-radius: 10px;
+
+}
+.commentInput{
+    padding: 6px;
+    width: 150px;
+    border: 1px solid #bbac0b;
+    border-radius: 10px;
+    display: inline-flex;
+
+}
+
+/*  part tabel  */
 .table1 {
     width: 90%;
     margin: 50px auto;
